@@ -1,0 +1,274 @@
+/* CSS Document */
+
+#hero {
+    max-height: 100vh;
+}
+
+#hero-titles {
+    margin-top: -80px;
+}
+
+.hero-titles-upper,
+.hero-titles-up {
+    margin-left: 750px;
+    margin-bottom: -120px;
+    letter-spacing: 3px;
+    display: block;
+}
+
+.hero-titles-down,
+.hero-titles-downer {
+    margin-left: 750px;
+    margin-top: -120px;
+    letter-spacing: 3px;
+    display: block;
+}
+
+.opacity20 {
+    color: #fff;
+    opacity: .2;
+}
+
+.opacity40 {
+    color: #fff;
+    opacity: .4;
+}
+
+.hero-titles-up,
+.hero-titles-down {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+.hero-titles-upper,
+.hero-titles-downer {
+    animation: fadein4s 4s;
+    -moz-animation: fadein4s 4s;
+    -webkit-animation: fadein4s 4s;
+    -o-animation: fadein4s 4s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .4;
+    }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .4;
+    }
+}
+
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .4;
+    }
+}
+
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .4;
+    }
+}
+
+@keyframes fadein4s {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .2;
+    }
+}
+
+@-moz-keyframes fadein4s {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .2;
+    }
+}
+
+@-webkit-keyframes fadein4s {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .2;
+    }
+}
+
+@-o-keyframes fadein4s {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .2;
+    }
+}
+
+@keyframes fadein2s100 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein2s100 {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein2s100 {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein2s100 {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.header-arrow {
+    height: 69px;
+    width: 69px;
+    position: absolute;
+    bottom: 40px;
+    animation: fadein2s100 5s;
+    -moz-animation: fadein2s100 5s;
+    -webkit-animation: fadein2s100 5s;
+    -o-animation: fadein2s100 5s;
+}
+
+#hero-text {
+    width: 50%;
+    margin-left: 750px;
+    animation: fadein2s100 5s;
+    -moz-animation: fadein2s100 5s;
+    -webkit-animation: fadein2s100 5s;
+    -o-animation: fadein2s100 5s;
+}
+
+#hero-text-button {
+    margin-top: 60px;
+    text-align: left;
+}
+
+
+/* Waarom */
+
+.waarom-title {
+    margin-top: 250px;
+}
+
+#waarom-grid {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 300px;
+}
+
+.waarom-icon img {
+    height: 80px;
+    width: 80px;
+}
+
+
+/* Over */
+
+#over-grid {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 300px;
+}
+
+.over-image img {
+    height: auto;
+    width: 100%;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1250px) {
+    .hero-titles-up,
+    .hero-titles-upper,
+    .hero-titles-down,
+    .hero-titles-downer {
+        display: none;
+    }
+    #hero-titles {
+        width: 100%;
+        height: auto;
+        margin-top: 150px;
+    }
+    #hero-text {
+        margin-left: 0;
+        margin-bottom: 400px;
+        width: 100%;
+    }
+    .header-arrow,
+    .header-arrow img {
+        height: 40px;
+        width: 40px;
+    }
+    .waarom-title {
+        margin-top: 350px;
+    }
+    #waarom-grid {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        margin-top: 150px;
+        margin-bottom: 200px;
+    }
+    .mobilepadding {
+        padding: 0 40px;
+    }
+    .waarom-icon img {
+        height: 60px;
+        width: 60px;
+    }
+    h2.center {
+        text-align: left;
+    }
+}

@@ -1,0 +1,15 @@
+/* CSS Document */
+
+@font-face {
+    font-family: 'airstrike';
+    src: url('fonts/airstrike-webfont.woff2') format('woff2'), url('fonts/airstrike-webfont.woff') format('woff'), url('fonts/airstrike-webfont.ttf') format('truetype'), url('fonts/airstrike-webfont.svg#airstrikeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'airstrike-outline';
+    src: url('fonts/airstrikeout-webfont.woff2') format('woff2'), url('fonts/airstrikeout-webfont.woff') format('woff'), url('fonts/airstrikeout-webfont.ttf') format('truetype'), url('fonts/airstrikeout-webfont.svg#airstrike_outlineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

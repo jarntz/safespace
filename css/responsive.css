@@ -1,0 +1,59 @@
+/* CSS Document */
+
+
+/* m.php styles */
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.mobile-wrapper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    padding: 40px;
+}
+
+.mobile-wrapper-text-p {
+    height: auto;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.mobile-wrapper-text-h2 {
+    height: auto;
+    width: 100%;
+    font-family: "airstrike", sans-serif;
+    font-weight: normal;
+    font-size: 256px;
+    line-height: 220px;
+}
+
+.outline {
+    font-family: 'airstrike-outline', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.white {
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+.mobile-wrapper-icon,
+.mobile-wrapper-icon img {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}

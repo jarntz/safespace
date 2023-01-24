@@ -1,0 +1,89 @@
+/* CSS Document */
+
+#hero-titles {
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+#hero-text {
+    margin-top: -50PX;
+    margin-left: 540px;
+    width: 45%;
+}
+
+.pakket-image,
+.pakket-image img {
+    width: 550px;
+    height: 465px;
+}
+
+#pakketten {
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: 250px;
+}
+
+.product-image,
+.product-image img {
+    width: 350px;
+    height: 465px;
+}
+
+.link h3 {
+    transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+}
+
+.link h3:visited {
+    color: #fff;
+}
+
+.link h3:hover,
+.link h3:focus {
+    color: #666666;
+}
+
+.link h3:active {
+    color: #fff;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1250px) {
+    #hero-text {
+        margin: 0;
+        width: 100%;
+    }
+    .waarom-title h2 {
+        text-align: left !important;
+    }
+    h3.thin {
+        text-align: left;
+        margin-top: 30px;
+    }
+    #store-grid-left {
+        margin-bottom: 100px;
+    }
+    .pakket-image,
+    .pakket-image img {
+        width: 100%;
+        height: auto;
+    }
+    .product-image,
+    .product-image img {
+        width: 300px;
+        height: auto;
+        text-align: left;
+    }
+    footer {
+        margin-top: 0 !important;
+    }
+    .breakfix {
+        margin-top: -130px;
+    }
+}

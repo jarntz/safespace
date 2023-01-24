@@ -1,0 +1,125 @@
+/* CSS Document */
+
+#hero-titles {
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+#hero-text {
+    margin-top: -50PX;
+    margin-left: 560px;
+    width: 45%;
+}
+
+.pakket-image,
+.pakket-image img {
+    width: 550px;
+    height: auto;
+}
+
+#pakketten {
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: 250px;
+}
+
+.product-image,
+.product-image img {
+    width: 350px;
+    height: 465px;
+}
+
+.pakket-pakket-image,
+.pakket-pakket-image img {
+    width: 100%;
+    height: auto;
+}
+
+.link h3 {
+    transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+}
+
+.link h3:visited {
+    color: #fff;
+}
+
+.link h3:hover,
+.link h3:focus {
+    color: #666666;
+}
+
+.link h3:active {
+    color: #fff;
+}
+
+#product {
+    text-align: center;
+}
+
+#product-info {
+    display: inline-block;
+    margin-top: -150px;
+}
+
+.grid {
+    display: inline-block;
+}
+
+#store-grid-left {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grid-3-col-product {
+    height: auto;
+    width: 64%;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1250px) {
+    h3.thin {
+        text-align: left;
+        margin-top: 30px;
+    }
+    #store-grid-left {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    #store-grid-right {
+        width: 100%;
+        margin-top: 0;
+    }
+    .product-image,
+    .product-image img,
+    .pakket-image,
+    .pakket-image img {
+        width: 300px;
+        height: auto;
+        text-align: left;
+    }
+    .pakket-pakket-image,
+    .pakket-pakket-image img {
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
+    h2.center {
+        text-align: left;
+    }
+    footer {
+        margin-top: 50px !important;
+    }
+    .footer-left {
+        margin-top: 50px !important;
+        margin-bottom: 0 !important;
+    }
+}

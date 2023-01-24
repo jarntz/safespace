@@ -1,0 +1,87 @@
+/* CSS Document */
+
+#hero-titles {
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.pakket-image,
+.pakket-image img {
+    width: 550px;
+    height: 465px;
+}
+
+#pakketten {
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: 250px;
+}
+
+.team-image,
+.team-image img {
+    width: 350px;
+    height: 465px;
+}
+
+#over-grid {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 300px;
+}
+
+.over-image img {
+    height: auto;
+    width: 100%;
+}
+
+.link h3 {
+    transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+}
+
+.link h3:visited {
+    color: #fff;
+}
+
+.link h3:hover,
+.link h3:focus {
+    color: #666666;
+}
+
+.link h3:active {
+    color: #fff;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1250px) {
+    .store-title,
+    #pakketten {
+        display: none;
+    }
+    #over-grid-right {
+        margin-top: 100px;
+    }
+    h2.center {
+        text-align: left;
+    }
+    .grid-3-col-img img {
+        margin-bottom: 20px;
+    }
+    .grid-3-col-name h3,
+    .grid-3-col-text p {
+        text-align: center !important;
+    }
+    .breakfix {
+        margin-top: -130px;
+    }
+    footer {
+        margin-top: 50px !important;
+    }
+}

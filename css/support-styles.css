@@ -1,0 +1,143 @@
+/* CSS Document */
+
+#hero {
+    margin-top: 150px;
+}
+
+.support-grid-img {
+    height: 80px;
+    width: 80px;
+}
+
+.support-grid-title {
+    width: 20%;
+}
+
+#support-form {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#support-form input {
+    line-height: 2em;
+    width: 33%;
+    outline: 0;
+    border-width: 0 0 4px;
+    border-radius: 2px;
+    border-color: #666666;
+    font-size: 1.5em;
+    background: transparent;
+    color: #fff;
+}
+
+#support-form input[type=text] {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.grid-3-col-name h3 {
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+}
+
+.grid-3-col-name h3:visited {
+    color: #fff;
+}
+
+.grid-3-col-name h3:hover,
+.grid-3-col-name h3:focus {
+    color: #666666;
+}
+
+.grid-3-col-name h3:active {
+    color: #0071BC;
+}
+
+a {
+    text-decoration: none;
+}
+
+.results {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+#results {
+    text-align: left;
+}
+
+.h3-title {
+    height: auto;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    padding-left: 20px;
+}
+
+.support-icon {
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+}
+
+.support-cat {
+    width: 275px;
+}
+
+.support-explain {
+    width: 820px;
+    height: 120px;
+}
+
+.onderste {
+    margin-bottom: 250px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1250px) {
+    #results {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 140px;
+    }
+    .support-grid-title {
+        width: 100%;
+    }
+    #support-form {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    #support-form input {
+        width: 100%;
+    }
+    .support-cat {
+        width: 100%;
+    }
+    .support-explain {
+        width: 100%;
+        height: auto;
+    }
+    h2.center {
+        text-align: left;
+    }
+    h3.support-cat {
+        padding: 40px 0 0 0;
+        margin-bottom: 10px;
+    }
+    footer {
+        margin-top: 250px !important;
+    }
+}
